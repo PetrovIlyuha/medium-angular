@@ -1,3 +1,4 @@
+import {ProfileComponent} from './profile/components/profile/profile.component'
 import {CreateArticleComponent} from './create-article/components/create-article/create-article.component'
 import {ArticleComponent} from './article/components/article/article.component'
 import {FeedComponent} from './feed/feed.component'
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'articles/:slug', component: ArticleComponent},
   {path: 'settings', component: SettingsComponent},
   {path: 'tags/:tag', component: TagFeedComponent},
+  {path: 'profiles/:username', component: ProfileComponent},
   {path: '', component: FeedComponent},
 ]
 
