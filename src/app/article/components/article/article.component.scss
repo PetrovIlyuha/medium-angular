@@ -1,0 +1,18 @@
+.error_message {
+  animation: fadeIn 0.2s forwards ease-in;
+}
+
+.disabled_btn {
+  background-color: rgb(228, 185, 185);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
