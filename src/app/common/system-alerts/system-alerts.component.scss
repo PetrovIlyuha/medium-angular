@@ -1,0 +1,14 @@
+.message_badge {
+  animation: slideUp 0.3s forwards ease-in;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
